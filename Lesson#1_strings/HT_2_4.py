@@ -8,7 +8,7 @@ some_str = "rythm rough rush shake than"
 
 first_part, last_part = some_str.find('h'), some_str.rfind('h')
 
-result = some_str[:first_part+1] + some_str[first_part+1:last_part][::-1] + some_str[last_part:]
+result = some_str[:first_part + 1] + some_str[first_part + 1:last_part][::-1] + some_str[last_part:]
 
 print(f"Измененная строка: {result}")
 
